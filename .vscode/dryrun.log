@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/anujjain/Desktop/CSE15L/skill-demo-2-starter'
+javac -g -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:. LinkedList.java
+javac -g -cp lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar:. LinkedListTest.java
+ 
+make: Leaving directory `/Users/anujjain/Desktop/CSE15L/skill-demo-2-starter'
+ 

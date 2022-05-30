@@ -7,8 +7,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
  
+make: *** No rule to make target `all'.  Stop.
 
-# Make data base, printed on Sun May 29 15:13:19 2022
+
+# Make data base, printed on Sun May 29 18:07:47 2022
 
 # Variables
 
@@ -39,7 +41,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/0_/4ft65p6d695gcmft5fzl19xc0000gn/T/vscode-ipc-825e0f59-b72f-4802-9ca9-68c71b514b1d.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/0_/4ft65p6d695gcmft5fzl19xc0000gn/T/vscode-ipc-5d26e7d3-e874-4d0d-a9cf-fdece029234b.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -71,7 +73,7 @@ VSCODE_CODE_CACHE_PATH = /Users/anujjain/Library/Application Support/Code/Cached
 # environment
 LOGNAME = anujjain
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -99,6 +101,7 @@ MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
 .VARIABLES := 
 # environment
+ 
 TMPDIR = /var/folders/0_/4ft65p6d695gcmft5fzl19xc0000gn/T/
 # automatic
 *F = $(notdir $*)
@@ -236,8 +239,6 @@ LinkedListTest.class: LinkedListTest.java LinkedList.class
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun May 29 15:13:19 2022
+# Finished Make data base on Sun May 29 18:07:47 2022
 
  
-make: *** No rule to make target `all'.  Stop.
-
